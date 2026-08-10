@@ -1,5 +1,5 @@
-> minimal deps for the Vercel serverless runtime (uv installs only these,
-> so the heavy torch/streamlit requirements.txt stays out of the bundle).
+# minimal deps for the Vercel serverless runtime (uv installs only these,
+# so the heavy torch/streamlit requirements.txt stays out of the bundle).
 [project]
 name = "llm-soc-copilot"
 version = "0.1.0"
