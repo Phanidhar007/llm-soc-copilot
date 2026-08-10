@@ -33,3 +33,5 @@ logs/
 .env
 *.key
 *.pem
+
+.vercel

@@ -13,6 +13,12 @@ config flag.
 
 ---
 
+## 🌐 Live demo
+
+**https://llm-soc-copilot.vercel.app** — live results dashboard: real metrics from `results/metrics.md` plus charts from `results/figures/` (AI Shield dark theme, no model executed server-side).
+
+Interactive **local** demo (Streamlit): `streamlit run demo/app.py` — see [demo/README.md](demo/README.md).
+
 ## Threat model
 
 **The problem.** SOC teams drown in alerts — a mid-size enterprise can generate

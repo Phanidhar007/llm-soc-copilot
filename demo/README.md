@@ -1,11 +1,8 @@
-# SOC Copilot Demo (local Streamlit)
+# SOC Copilot Demo
 
-Local-only UI in the **AI Shield dark theme** (#030303 background, emerald
+A **live results dashboard** is deployed at https://llm-soc-copilot.vercel.app (real metrics + figures, AI Shield theme). This Streamlit app is the full local version — interactive UI in the **AI Shield dark theme** (#030303 background, emerald
 `#10b981` accent, Space Grotesk / Plus Jakarta Sans, mono uppercase labels,
-stat cards, badges, SVG-style figures).
-
-> There is no deployed/hosted version — the demo runs entirely on your machine
-> and reads the local SQLite alert store + figures produced by the pipeline.
+stat cards, badges, SVG-style figures) that reads the local SQLite alert store + figures produced by the pipeline.
 
 ## Run it
 
@@ -38,3 +35,8 @@ The AI Shield palette is injected via CSS in `app.py` (`CSS` constant) because
 Streamlit does not expose raw template control. Fonts are loaded from Google
 Fonts; if offline, the app falls back to system sans/mono fonts — the palette
 and layout are unchanged.
+
+
+## 🌐 Live demo
+
+https://llm-soc-copilot.vercel.app — real metrics + figures dashboard (AI Shield theme).
