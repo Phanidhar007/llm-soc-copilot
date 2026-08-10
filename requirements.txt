@@ -1,0 +1,26 @@
+# Core deps (all verified installed in the target env; pipeline runs on these only)
+numpy>=1.24
+scikit-learn>=1.3
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.10
+requests>=2.31
+
+# Demo / notebook tooling (installed)
+streamlit>=1.32
+jupyter
+ipykernel
+
+# --- OPTIONAL / PAID / HEAVY (NOT required to run the repo) ---
+# Vector DBs - the repo uses numpy+TF-IDF cosine instead; install only if you
+# want to swap in a real vector store.
+# chromadb
+# faiss-cpu
+
+# Local LLM via Ollama: no pip package needed; install Ollama separately and
+# `ollama pull llama3` (or mistral). The pipeline talks to it over HTTP.
+# openai   # only if you want the paid OpenAI path (requires OPENAI_API_KEY)
+
+# Heavy / optional packages deliberately NOT used by this repo (listed so users
+# know they are not required):
+# torch, transformers, opacus, tenseal, dice-ml, shap, evidently, mlflow, flower

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Notebooks
+.ipynb_checkpoints/
+notebooks/checkpoints/
+
+# Runtime artifacts (keep results/metrics.md and results/figures/)
+*.db
+*.sqlite
+*.sqlite3
+results/soc_alerts.db
+logs/
+
+# Secrets (never commit)
+.env
+*.key
+*.pem
