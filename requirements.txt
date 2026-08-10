@@ -24,3 +24,4 @@ ipykernel
 # Heavy / optional packages deliberately NOT used by this repo (listed so users
 # know they are not required):
 # torch, transformers, opacus, tenseal, dice-ml, shap, evidently, mlflow, flower
+flask>=3.0

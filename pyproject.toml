@@ -1,0 +1,10 @@
+> minimal deps for the Vercel serverless runtime (uv installs only these,
+> so the heavy torch/streamlit requirements.txt stays out of the bundle).
+[project]
+name = "llm-soc-copilot"
+version = "0.1.0"
+description = "llm-soc-copilot - live results dashboard"
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=3.0",
+]
